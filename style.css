@@ -1,0 +1,110 @@
+body{
+    background-color: #9effff;
+    color: #0c0b0b;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.42857143;
+    margin: 0;
+    
+}
+
+#main{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    width: 90%;
+}
+
+#main h1{
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 42px;
+}
+
+#entry-form{
+    background-color: rgb(182, 248, 120);
+    padding: 0 10px 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: left;
+    margin: 5% 0 0 0;
+    height: auto;
+    width: auto;
+    box-shadow: rgba(18, 18, 35, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.inputs input{
+    width: 100%;
+    margin: 15px 0;
+    height: 30px;
+    border: 0;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+#agree{
+    display: flex;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 14px;
+}
+#agree input{
+    margin-top: 10px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid rgb(137, 24, 24);
+    border-radius: 4px;
+}
+.button-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+#submit{
+    margin: auto;
+    font-size: 20px;
+    height: 50px;
+    width: 90px;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: rgba(53, 53, 106, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+#table-box{
+    margin : 70px 20px;
+    background-color: rgb(255, 222, 222);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: left;
+    border-radius:0;
+    height: 500px;
+    width: 800px;
+    box-shadow: rgba(62, 172, 78, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    text-align: center;
+}
+
+td,th{
+    padding-left: 10px;
+    width: 100px;
+    text-align: left;
+}
